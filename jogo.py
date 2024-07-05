@@ -6,7 +6,7 @@ import math
 # pygame setup
 pygame.init()
 pygame.display.set_caption('Flappy Bird do Vasco e do André')
-screen = pygame.display.set_mode((1280, 720), pygame.FULLSCREEN)
+screen = pygame.display.set_mode((1280, 720))
 clock = pygame.time.Clock()
 
 running = True
